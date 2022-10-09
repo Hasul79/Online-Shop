@@ -3,10 +3,10 @@
 MyShop 
  
 1. Create Folder Structure
-    1. create root folder as aliexpress
+    1. create root folder as MyShop
     2. add frontend and backend folder
     3. create src folder in frontend
-    4. create index.html with heading aliexpress in src
+    4. create index.html with heading MyShop in src
     5. run npm init in frontend folder
     6. npm install live-server
     7. add start command as live-server src --verbose
@@ -25,7 +25,7 @@ MyShop
   2. create li
   3. create div.product
   4. add .product-image, .product-name, .product-price
-  5. style ul.products and internal divs 
+  5. style ul.products and internal div
   6. duplicate 2 times to show 3 products
 
 4. Render Dynamic Home Screen
