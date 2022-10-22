@@ -21,12 +21,12 @@ MyShop
    6. style grid-container, header, main and footer
 
 3. create ...
-  1. create ul.products    
-  2. create li
-  3. create div.product
-  4. add .product-image, .product-name, .product-price
-  5. style ul.products and internal div
-  6. duplicate 2 times to show 3 products
+    1. create ul.products    
+    2. create li
+    3. create div.product
+    4. add .product-image, .product-name, .product-price
+    5. style ul.products and internal div
+    6. duplicate 2 times to show 3 products
 
 4. Render Dynamic Home Screen
     1. create data.js
@@ -42,3 +42,16 @@ MyShop
     11. create router() function
     12. set main_container innerHTML to HomeScreen.render()
     13. set load event of window to router() function
+
+ 5. Build Url Router
+    1. create routes as route:screen object for home screen
+    2. create utils.js
+    3. export parseRequestURL()
+    4. set url as hash address split by slash
+    5. return resource, id and verb of url
+    6. update router()
+    7. set request as parseRequestURL()
+    8. build parsedUrl and compare with routes
+    9. if route exists render it, else render Error404
+    10. create screens/Error404.js and render error message
+   
